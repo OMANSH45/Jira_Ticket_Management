@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- block level:width of parent element-->
+    <div class="header-container">
+        
+        <div class ="color-group_container">
+            <div class="color pink"></div>
+            <div class="color blue"></div>
+            <div class="color green"></div>
+            <div class="color black"></div>
+        </div>
+
+        <div class="add-cross_container">
+            <div class="plus-container">
+                <i class="fas fa-plus tool-icons"></i>
+            </div>
+            <div class="multiply-container">
+                <i class="fas fa-times tool-icons"></i>
+            </div>
+        </div>
+        <div class="lock-unlock_container">
+            <div class="lock-container">
+                <i class="fas fa-lock tool-icons"></i>
+            </div>
+            <div class="unlock-container active">
+                <i class="fas fa-lock-open tool-icons"></i>
+            </div>
+        </div>
+        <!-- <input type="text" class="task_input"> -->
+    </div>
+      
+    <div class="main-container">
+        <!-- <div class="task_container">
+            <div class="task_header"></div>
+            <div class="task_main-container">
+                <h3 class="task_id">#dsfdsvhv</h3>
+                <div class="text">this is my first task dsjfbjhfvzdv</div>
+            </div>
+        </div> -->
+        <div class="modal">
+            <div class="input-container">
+                <textarea class="input-text-container" placeholder="Enter the task "></textarea>
+  
+            </div>
+            <div class="color-container">
+                <div class="color-picker blue selected"></div>
+                <div class="color-picker pink selected"></div>
+                <div class="color-picker green selected"></div>
+                <div class="color-picker black selected"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script src="script.js" defer></script>
+    
+</body>
+</html>
